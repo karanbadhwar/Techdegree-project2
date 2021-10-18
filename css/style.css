@@ -158,6 +158,18 @@ a{
 
 }
 @media screen and (min-width: 1024px){
+    header, nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    header h2, nav{
+        padding: 10px;
+    }
+    header h2{
+       position: relative;
+       left: 60px;
+    }
     .about-me{
         justify-content: space-around;
     }
